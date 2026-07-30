@@ -3,13 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pradeep Majumdar - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #667eea;
+        }
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        .skill-tag {
+            display: inline-block;
+            background-color: #667eea;
+            color: white;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0.5rem 0.5rem 0;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .project {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+        .project h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            font-size: 1.1rem;
+            margin: 1rem 0;
+        }
+    </style>
 </head>
 <body>
-    <p>This is a paragraph</p>
-    <button>Click me</button>
-    <button>Login</button>
+    <header>
+        <h1>Pradeep Majumdar</h1>
+        <p>Full Stack Developer | Android Developer</p>
+    </header>
     
-
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate developer with expertise in front-end, back-end, and Android development. I love creating innovative solutions and exploring new technologies. I'm dedicated to delivering high-quality code and building applications that make a difference.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div>
+                <span class="skill-tag">Front End Development</span>
+                <span class="skill-tag">Back End Development</span>
+                <span class="skill-tag">Android Development</span>
+                <span class="skill-tag">Web Development</span>
+                <span class="skill-tag">Cloud Technologies</span>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>AI Cloud Weather Application</h3>
+                <p>A weather application that leverages cloud technologies and AI to provide accurate weather predictions and insights.</p>
+            </div>
+            <div class="project">
+                <h3>Feedback Portal</h3>
+                <p>A comprehensive feedback management system designed to collect and analyze user feedback efficiently.</p>
+            </div>
+            <div class="project">
+                <h3>Number Guessing Game</h3>
+                <p>An interactive game built with front-end technologies to engage users in a fun guessing experience.</p>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:pradeepmajumdar30@gmail.com">pradeepmajumdar30@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Pradeep Majumdar. All rights reserved.</p>
+        <p>Feel free to reach out: <a href="mailto:pradeepmajumdar30@gmail.com">pradeepmajumdar30@gmail.com</a></p>
+    </footer>
 </body>
 </html>
